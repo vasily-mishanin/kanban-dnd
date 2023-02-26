@@ -58,6 +58,7 @@ button:active {
 .projects {
   margin: 1rem;
   border: 1px solid #ff0062;
+  width: 350px;
 }
 
 .projects header {
@@ -91,6 +92,7 @@ button:active {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   margin: 1rem;
+  background-color: white;
 }
 
 .projects li h2 {
@@ -124,4 +126,8 @@ button:active {
   padding: 1rem;
   border: 1px solid #ff0062;
   background: #f7f7f7;
+}
+
+#app {
+  display: flex;
 }

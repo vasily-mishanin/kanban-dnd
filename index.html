@@ -10,7 +10,7 @@
     <meta property="og:image" content="" />
     <title>Kanban DND</title>
     <link rel="stylesheet" href="./src/app.css" />
-    <script src="dist/app.js" defer></script>
+    <script type="module" src="dist/bundle.js"></script>
   </head>
   <body>
     <template id="project-input">
@@ -31,7 +31,7 @@
       </form>
     </template>
     <template id="single-project">
-      <li>
+      <li draggable="true">
         <h2></h2>
         <h3></h3>
         <p></p>

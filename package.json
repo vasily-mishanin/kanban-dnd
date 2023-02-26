@@ -5,18 +5,25 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "webpack-dev-server",
+    "ts": "tsc -watch ",
+    "dev": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "keywords": [
     "typescript",
-    "dnd"
+    "drag",
+    "drop"
   ],
   "author": "Vasily Mishanin",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "typescript": "^4.9.5"
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }
