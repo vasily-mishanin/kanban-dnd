@@ -1,4 +1,4 @@
-import { Listener, Project, ProjectStatus } from "../models/project.js";
+import { Listener, Project, ProjectStatus } from "../models/project";
 
 export class State<T> {
   protected listeners: Listener<T>[] = [];
